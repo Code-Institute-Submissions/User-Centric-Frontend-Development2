@@ -1,0 +1,85 @@
+body {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    padding: 3px;
+    margin: 2px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ li {
+     text-align: center;
+     padding: 2px;
+     margin: 0;
+}
+
+.contract-list {
+    list-style-type: disc ;
+}
+
+.contract-list li {
+    text-align: left;
+}
+
+.img-tools {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.service-img {
+    width: 100%;
+    border: 1px solid #fff;
+    
+}
+
+#jumbo-home {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: url("../images/wallhome.jpg");
+    background-repeat: no-repeat;
+}
+
+.service-btn {
+    width: 75%;
+    margin: 15px;
+}
+
+#project-btn {
+    width: 50%;
+    margin: 15px;
+}
+
+#cta-btn {
+    width: 60%;
+    margin-left: -60px;
+}
+
+#home-services {
+    background-color: #eee;
+    min-height: 500px;
+    border-top: 1px solid black;
+    border-bottom:  1px solid black;
+}
+
+#home-projects {
+   margin-bottom: 20px;
+}
+
+#home000000-extra {
+    margin-bottom: 50px; 
+}
