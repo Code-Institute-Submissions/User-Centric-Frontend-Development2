@@ -54,6 +54,20 @@ ul {
     background-repeat: no-repeat;
 }
 
+#jumbo-services {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: url("../images/wallhome.jpg");
+    background-repeat: no-repeat;
+}
+
+#jumbo-about {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: url("../images/wallhome.jpg");
+    background-repeat: no-repeat;  
+}
+
 .service-btn {
     width: 75%;
     margin: 15px;
