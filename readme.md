@@ -1,6 +1,6 @@
 # Overview
 
-###The purpose of this website
+### The purpose of this website
 
 To display a clean and tidy website that can retain end-users to the point of contact to the company. The design of the website is aimed at the construction industry. I achieved this by using Html 5, CSS and javascript which ensures that the website is responsive on all devices.
 
@@ -14,7 +14,7 @@ To display a clean and tidy website that can retain end-users to the point of co
 
 * 5 responsive web pages.
 
-###What could be added
+### What could be added
 
 Future updates could include a carousel for GIF file adverts.
 
