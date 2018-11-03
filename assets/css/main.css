@@ -1,3 +1,4 @@
+/* CSS THAT RUNS THROUGH OUT THE WEBSITE */
 body {
     font-size: 1.2em;
     margin: 0;
@@ -13,7 +14,7 @@ h1,h2,h3,h4,h5 {
 p {
     text-align: center;
     padding: 3px;
-    margin: 2px;
+    margin: 10px;
 }
 
 ul {
@@ -36,6 +37,8 @@ ul {
     text-align: left;
 }
 
+/* CSS FOR IMAGES THROUGH OUT THE WEBSITE */
+
 .img-tools {
     width: 100%;
     border: 1px solid #000;
@@ -46,6 +49,8 @@ ul {
     border: 1px solid #fff;
     
 }
+
+/* jUMBOTRON CSS FOR ALL PAGES */
 
 #jumbo-home {
     width: 100%;
@@ -68,6 +73,22 @@ ul {
     background-repeat: no-repeat;  
 }
 
+#jumbo-projects {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: url("../images/wallhome.jpg");
+    background-repeat: no-repeat;  
+}
+
+#jumbo-contact {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: url("../images/wallhome.jpg");
+    background-repeat: no-repeat;  
+}
+
+/* CSS FOR BUTTONS THROUGHOUT WEBSITE */
+
 .service-btn {
     width: 75%;
     margin: 15px;
@@ -83,6 +104,8 @@ ul {
     margin-left: -60px;
 }
 
+/* CSS FOR HOME PAGE SECTIONS USED AS BREADCRUMBS TO OTHER PAGES */
+
 #home-services {
     background-color: #eee;
     min-height: 500px;
@@ -96,4 +119,42 @@ ul {
 
 #home000000-extra {
     margin-bottom: 50px; 
+}
+
+        /* ABOUT US PAGE CSS */
+
+.container {
+    width: 100%;
+}
+
+#team-text {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+#team {
+    width: 100%;
+    
+}
+
+#team2 {
+    width: 100%;
+}
+
+            /* CSS FOR CONTACT PAGE AND FORM */
+
+form {
+    width: 50%;
+    margin: 10px;
+   
+}
+
+input {
+    margin: 10px;
+}
+
+legend {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
 }
