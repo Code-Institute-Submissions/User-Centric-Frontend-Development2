@@ -1,11 +1,17 @@
 /* CSS THAT RUNS THROUGH OUT THE WEBSITE */
 body {
-    font-size: 1.2em;
+    font-size: 1.2rem;
+    padding: 0;
     margin: 0;
 }
 
+main {
+    margin: 0;
+    padding: 0;
+}
+
 h1,h2,h3,h4,h5 {
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     padding: 20px;
     margin: 0;
@@ -30,11 +36,11 @@ ul {
 }
 
 .contract-list {
-    list-style-type: disc ;
+    list-style-type: none;
 }
 
 .contract-list li {
-    text-align: left;
+    text-align: center;
 }
 
 /* CSS FOR IMAGES THROUGH OUT THE WEBSITE */
@@ -53,28 +59,24 @@ ul {
 /* jUMBOTRON CSS FOR ALL PAGES */
 
 #jumbo-home {
-    width: 100%;
     color: rgb(255, 255, 255);
     background-image: url("../images/wallhome.jpg");
     background-repeat: no-repeat;
 }
 
 #jumbo-services {
-    width: 100%;
     color: rgb(255, 255, 255);
     background-image: url("../images/wallhome.jpg");
     background-repeat: no-repeat;
 }
 
 #jumbo-about {
-    width: 100%;
     color: rgb(255, 255, 255);
     background-image: url("../images/wallhome.jpg");
     background-repeat: no-repeat;  
 }
 
 #jumbo-projects {
-    width: 100%;
     color: rgb(255, 255, 255);
     background-image: url("../images/wallhome.jpg");
     background-repeat: no-repeat;  
@@ -99,9 +101,12 @@ ul {
     margin: 15px;
 }
 
-#cta-btn {
-    width: 60%;
-    margin-left: -60px;
+#cta-btn{
+    margin: 1.5em;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 3px solid #fff;
 }
 
 /* CSS FOR HOME PAGE SECTIONS USED AS BREADCRUMBS TO OTHER PAGES */
@@ -111,6 +116,8 @@ ul {
     min-height: 500px;
     border-top: 1px solid black;
     border-bottom:  1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #home-projects {
@@ -132,16 +139,7 @@ ul {
     margin: 10px;
 }
 
-#team {
-    width: 100%;
-    
-}
-
-#team2 {
-    width: 100%;
-}
-
-            /* CSS FOR CONTACT PAGE AND FORM */
+/* ============= CSS FOR CONTACT PAGE AND FORM ========= */
 
 form {
     width: 50%;
@@ -157,4 +155,24 @@ legend {
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
+}
+
+
+
+/* ======== CALL TO ACTION CSS ==========*/
+
+#cta {
+    background-color: #cdc;
+    padding: 3em;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+/* ======= FOOTER CSS ========= */
+
+footer {
+    background-color: #344;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
 }
