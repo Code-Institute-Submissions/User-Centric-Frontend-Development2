@@ -1,6 +1,7 @@
-/* CSS THAT RUNS THROUGH OUT THE WEBSITE */
+/*============= CSS THAT RUNS THROUGH OUT THE WEBSITE ================*/
 body {
     font-size: 1.2rem;
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
 }
@@ -43,7 +44,7 @@ ul {
     text-align: center;
 }
 
-/* CSS FOR IMAGES THROUGH OUT THE WEBSITE */
+/*============== CSS FOR IMAGES THROUGH OUT THE WEBSITE ===============*/
 
 .img-tools {
     width: 100%;
@@ -56,7 +57,7 @@ ul {
     
 }
 
-/* jUMBOTRON CSS FOR ALL PAGES */
+/*============== jUMBOTRONS CSS FOR ALL PAGES ===============*/
 
 #jumbo-home {
     color: rgb(255, 255, 255);
@@ -89,7 +90,7 @@ ul {
     background-repeat: no-repeat;  
 }
 
-/* CSS FOR BUTTONS THROUGHOUT WEBSITE */
+/*============ CSS FOR BUTTONS THROUGHOUT WEBSITE ============*/
 
 .service-btn {
     width: 75%;
@@ -102,6 +103,7 @@ ul {
 }
 
 #cta-btn{
+    width: 50%;
     margin: 1.5em;
     color: #fff;
     font-size: 1.5rem;
@@ -109,14 +111,18 @@ ul {
     border: 3px solid #fff;
 }
 
-/* CSS FOR HOME PAGE SECTIONS USED AS BREADCRUMBS TO OTHER PAGES */
+#cta-btn:hover {
+    background-color: #4e4;
+}
+
+
+/* ==== CSS FOR HOME PAGE SECTIONS USED AS BREADCRUMBS TO OTHER PAGES ============*/
 
 #home-services {
     background-color: #eee;
     min-height: 500px;
     border-top: 1px solid black;
     border-bottom:  1px solid black;
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -124,11 +130,14 @@ ul {
    margin-bottom: 20px;
 }
 
-#home000000-extra {
-    margin-bottom: 50px; 
+#home-extra {
+    background-color: #000;
+    padding-bottom: 10px;
+    color: #fff;
+    margin-top: 20px;
 }
 
-        /* ABOUT US PAGE CSS */
+        /*========== ABOUT US PAGE CSS ================*/
 
 .container {
     width: 100%;
@@ -175,4 +184,136 @@ footer {
     color: #fff;
     padding: 10px;
     margin-top: 20px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li a {
+    text-align: center;
+    color: #fff;
+     padding: 2px;
+     margin: 0;
+}
+
+/*============ CSS TRANSITIONS FOR WEBSITE =========================*/
+
+/*========= CSS TRANSITIONS ANIMATIONS FOR INDEX PAGE ======*/
+
+#slide {
+   position: relative;
+   animation-name: slide;
+   animation-duration: 3s;
+   animation-fill-mode: forwards; 
+}
+
+@keyframes slide {
+    0% {left: -1200px;}
+    100% {left: 0;}
+}
+
+#fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 8s;
+}
+
+@keyframes fadeIn {
+ from {
+     opacity: 0;
+ }
+
+ to {
+     opacity: 1;
+ }
+}
+
+/*============== CSS TRANSITIONS ANIMATIONS FOR SERVICE PAGE ===========*/
+
+#slide-2 {
+    position: relative;
+    animation-name: slide-2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes slide-2 {
+    0% {right: -1200px;}
+    100% {right: 0;}
+}
+
+/*============== CSS TRANSITIONS ANIMATIONS FOR PROJECT PAGE ===========*/
+
+#slide-3 {
+    position: relative;
+    animation-name: slide-3;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes slide-3 {
+    0% {left: -1200px;}
+    100% {left: 0;}
+}
+
+#slide-4 {
+    position: relative;
+    animation-name: slide-4;
+    animation-duration: 4s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes slide-4 {
+    0% {left: -1200px;}
+    100% {left: 0;}
+}
+
+#slide-5 {
+    position: relative;
+    animation-name: slide-5;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;  
+}
+
+@keyframes slide-5 {
+    0% {left: -1200px;}
+    100% {left: 0;}
+}
+
+#slide-6 {
+    position: relative;
+    animation-name: slide-6;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;  
+}
+
+@keyframes slide-6 {
+    0% {right: -1200px;}
+    100% {right: 0;}
+}
+
+#slide-7 {
+    position: relative;
+    animation-name: slide-7;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;   
+}
+
+@keyframes slide-7 {
+    0% {right: -1200px;}
+    100% {right: 0;}
+}
+
+#slide-8 {
+    position: relative;
+    animation-name: slide-8;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes slide-8 {
+    0% {right: -1200px;}
+    100% {right: 0;}
 }
